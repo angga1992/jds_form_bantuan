@@ -161,7 +161,7 @@ export default {
     onFileChangeKk (e) {
         this.dataPendukduk.fkk = e.target.files[0];
     },
-    disableds () {
+    disableds() {
       if (this.checked === true && this.dataPendukduk.nama !== '' && this.dataPendukduk.nik !== '' && this.dataPendukduk.kk !== '' && this.dataPendukduk.fktp !== '' && this.dataPendukduk.fkk !== '' && this.dataPendukduk.usia !== '' && this.dataPendukduk.kelamin !== '' && this.dataPendukduk.alamat !== '' && this.dataPendukduk.rt !== '' && this.dataPendukduk.rw !== '' && this.dataPendukduk.bpandemic !== '' && this.dataPendukduk.apandemic !== '' && this.dataPendukduk.reason !== '') {
         return false
       } else {
