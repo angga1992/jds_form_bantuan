@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/jds-test/'
+    publicPath: '/jds_form_bantuan/'
   }
