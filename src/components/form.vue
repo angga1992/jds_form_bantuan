@@ -96,7 +96,6 @@
       </div>
       <div>
         <input v-model="checked" type="checkbox">
-        <pre>{{checked}}</pre>
         <span>Saya menyatakan bahwa data yang diisikan adalah benar dan siap mempertanggungjawabkan apabila ditemukan ketidaksesuaian dalam data tersebut.</span>
       </div>
       <button :disabled="disableds()" @click="submitData()">
